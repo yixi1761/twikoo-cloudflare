@@ -7,14 +7,15 @@ compatibility_date = "2024-09-23"
 [[d1_databases]]
 binding = "DB" # available in your Worker on env.DB
 database_name = "twikoo"
-database_id = "b35e0bd5-6d17-42eb-a597-ff4869a74461"
+database_id = "2e2612dc-1b14-4802-b459-2729370e5693"
 
 [[r2_buckets]]
 binding = "R2"
 bucket_name = "twikoo"
 
 [vars]
-R2_PUBLIC_URL = "https://twikoo.r2.mingy.org"
+R2_PUBLIC_URL = "twikoor2.venuslight.site"
 
 [dev]
 port = 5000
+
